@@ -54,11 +54,11 @@ def using_flatten(private_colleges_in_newyork)
 end
 
 instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-def using_delete(instructors)
+def using_delete(instructors, name)
   instructors.delete("Steven")
 end
 
 famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
-def using_delete_at(famous_robots)
+def using_delete_at(famous_robots, i)
   famous_robots.delete_at(2)
 end
